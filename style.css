@@ -1,0 +1,50 @@
+body{
+  display:flex;
+  flex-direction: row;
+}
+form {
+  max-width: 400px;
+  margin: 70px  0 0 40px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  margin: 40px 70px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+
